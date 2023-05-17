@@ -1,6 +1,6 @@
 package com.booleanuk.core;
 
-public class Book {
+public class Book implements Iitem{
     String name;
     int price;
 
