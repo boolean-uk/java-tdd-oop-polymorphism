@@ -15,6 +15,20 @@ class BasketTest {
     }
 
     @Test
+    public void testAddProduct(){
+        Basket basket = new Basket();
+        boolean temp = false;
+        // test for success
+        basket.add(new Game("Morrowind", 12));
+        for (int i = 0; i < basket.product.size(); i++) {
+            if(basket.product.get(i).getName().equals("Morrowind")){
+                temp = true;
+            }
+        }
+        Assertions.assertTrue(temp);
+    }
+
+    @Test
     public void shouldFindExistingProduct() {
         Basket basket = new Basket();
         basket.add(new Game("Morrowind", 12));
