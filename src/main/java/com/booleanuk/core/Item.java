@@ -6,9 +6,6 @@ import java.util.List;
 public interface Item {
 
 
-    String name = "";
-    int price = 0;
-
 
 
     int getPrice();
