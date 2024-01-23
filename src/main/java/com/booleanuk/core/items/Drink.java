@@ -1,6 +1,8 @@
-package com.booleanuk.core;
+package com.booleanuk.core.items;
 
-public class Drink {
+import com.booleanuk.core.Item;
+
+public class Drink implements Item {
     String name;
     int price;
 
