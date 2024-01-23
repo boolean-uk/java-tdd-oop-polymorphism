@@ -74,19 +74,26 @@ Both `List` and `Map` are interfaces, `ArrayList` and `HashMap` are specific con
 
 There are a number of classes inside the `./src/main/java/com/booleanuk/core` directory, and tests in the `./src/test/java/com/booleanuk/core` directory.
 
-Your task is to refactor the classes, especially the `Basket` class, to be simpler using polymorphism.
+Your task is to refactor the classes, especially the `Basket` class,
+to be simpler using polymorphism.
 
 The Basket class must
 - Contain only one `add` method
 - Contain no more than 1 loop in the `getTotal` and `isInBasket` methods
 
-The tests are already passing. You must not change the existing tests (though you can add more if you like). The tests should still pass after implementing your changes.
+The tests are already passing. 
+You must not change the existing tests (though you can add more if you like). 
+The tests should still pass after implementing your changes.
 
 ## Next steps
 
-Now that you've learned about dependency injection and polymorphism, introduce these concepts into your Bob's Bagels OOP exercise. You will need to refactor your existing code and change your tests to accommodate these changes.
+Now that you've learned about dependency injection and polymorphism,
+introduce these concepts into your Bob's Bagels OOP exercise.
+You will need to refactor your existing code and change your tests
+to accommodate these changes.
 
-Although it may be tough, you should see the amount of code in your exercise reduce substantially as an end result.
+Although it may be tough, you should see the amount of code
+in your exercise reduce substantially as an end result.
 
 ## Test Output
 
