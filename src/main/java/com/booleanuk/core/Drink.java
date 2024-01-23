@@ -1,6 +1,6 @@
 package com.booleanuk.core;
 
-public class Drink {
+ class Drink implements Item{
     String name;
     int price;
 
