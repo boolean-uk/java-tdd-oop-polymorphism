@@ -1,6 +1,6 @@
 package com.booleanuk.core;
 
-public class Book {
+public class Book implements Add {
     String name;
     int price;
 
@@ -16,4 +16,6 @@ public class Book {
     public String getName() {
         return this.name;
     }
+
+
 }
