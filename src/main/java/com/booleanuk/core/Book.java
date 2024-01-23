@@ -1,8 +1,9 @@
 package com.booleanuk.core;
 
-public class Book {
+public class Book implements Add {
     String name;
     int price;
+    Book book;
 
     public Book(String name, int price) {
         this.name = name;
