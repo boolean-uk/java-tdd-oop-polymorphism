@@ -1,8 +1,8 @@
 package com.booleanuk.core;
 
-public class Game {
-    String name;
-    int price;
+public class Game implements Item{
+    private String name;
+    private int price;
 
     public Game(String name, int price) {
         this.name = name;
