@@ -1,10 +1,12 @@
-package com.booleanuk.core;
+package com.booleanuk.core.items;
 
-public class Book {
+import com.booleanuk.core.Item;
+
+public class Game implements Item {
     String name;
     int price;
 
-    public Book(String name, int price) {
+    public Game(String name, int price) {
         this.name = name;
         this.price = price;
     }
