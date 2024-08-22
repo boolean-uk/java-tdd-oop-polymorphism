@@ -1,19 +1,9 @@
 package com.booleanuk.core;
 
-public class Game {
-    String name;
-    int price;
+public class Game extends Product {
 
     public Game(String name, int price) {
-        this.name = name;
-        this.price = price;
+        super(name, price);
     }
 
-    public int getPrice() {
-        return this.price;
-    }
-
-    public String getName() {
-        return this.name;
-    }
 }
