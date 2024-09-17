@@ -1,6 +1,6 @@
 package com.booleanuk.core;
 
-public class Book {
+public class Book implements Item {
     String name;
     int price;
 
@@ -9,10 +9,12 @@ public class Book {
         this.price = price;
     }
 
+    @Override
     public int getPrice() {
         return this.price;
     }
 
+    @Override
     public String getName() {
         return this.name;
     }
