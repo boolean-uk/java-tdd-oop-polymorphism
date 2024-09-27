@@ -1,5 +1,8 @@
 package com.booleanuk.core;
 
+import com.booleanuk.core.items.Book;
+import com.booleanuk.core.items.Drink;
+import com.booleanuk.core.items.Game;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
